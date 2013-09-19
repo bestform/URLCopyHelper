@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "URL Copy Helper",
+    "version": "0.1",
+    "description": "Helps you copy the URL without the protocol",
+    "browser_action" :
+    {
+        "default_icon" : "folder_link.png",
+        "default_title" : "URL Copy Helper"  ,
+        "default_popup": "popup.html"
+    },
+    "permissions" : [
+        "tabs"
+    ],
+    "icons" : {
+        "48" : "folder_link.png",
+        "128" : "folder_link.png"
+    }
+    
+}
